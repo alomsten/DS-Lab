@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>数据科学实验室 | 首页</title>
+    <meta name="description" content="数据科学实验室首页。">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-title" href="index.html" aria-label="数据科学实验室首页">数据科学实验室</a>
+        <button class="menu-button" type="button" aria-label="打开导航" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" aria-label="主导航">
+          <a class="active" href="index.html">首页</a>
+          <a href="publications.html">论文成果</a>
+          <a href="people.html">团队成员</a>
+          <a href="join.html">加入我们</a>
+        </nav>
+        <form class="search-box" role="search" action="index.html">
+          <label class="sr-only" for="site-search">搜索导航</label>
+          <input id="site-search" type="search" autocomplete="off" placeholder="搜索">
+          <div class="search-menu" hidden>
+            <a href="index.html"><span>首页</span><small>导航</small></a>
+            <a href="publications.html"><span>论文成果</span><small>导航</small></a>
+            <a href="people.html"><span>团队成员</span><small>导航</small></a>
+            <a href="join.html"><span>加入我们</span><small>导航</small></a>
+          </div>
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="affiliation">数据科学实验室 · 计算机科学学院</p>
+          <h1>数据科学实验室</h1>
+          <p class="lead">
+            欢迎来到数据科学实验室。我们聚焦数据科学、机器学习、可信智能系统，
+            以及能够把复杂数据转化为有用知识的研究工具。
+          </p>
+          <p>
+            当前项目涵盖可信人工智能、科学数据挖掘、检索增强系统，
+            以及以人为中心的决策支持。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="publications.html">查看论文成果</a>
+            <a class="button secondary" href="join.html">加入实验室</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/hero-research-visual.png" alt="抽象的数据科学研究视觉图">
+        </div>
+      </section>
+
+      <section class="content-section">
+        <h2>最新动态</h2>
+        <div class="news-list">
+          <article class="news-item">
+            <time datetime="2026-05-18">2026 年 5 月 18 日</time>
+            <p>我们关于鲁棒图学习的研究被 2026 年知识发现与数据挖掘大会接收。</p>
+          </article>
+          <article class="news-item">
+            <time datetime="2026-04-22">2026 年 4 月 22 日</time>
+            <p>实验室将举办面向科研兴趣学生的开放日活动。</p>
+          </article>
+          <article class="news-item">
+            <time datetime="2026-03-09">2026 年 3 月 9 日</time>
+            <p>我们启动了一个关于科学数据发现的新交叉学科项目。</p>
+          </article>
+          <article class="news-item">
+            <time datetime="2026-01-12">2026 年 1 月 12 日</time>
+            <p>数据科学实验室首页正式上线。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>版权所有 2026 数据科学实验室。</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
